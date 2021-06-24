@@ -10,6 +10,10 @@ I made this auth system NodeJS but looking forward to make one with Golang.
 
 Clone down this repository. You will need `node`, `npm` and `postgresql` installed globally on your machine.
 
+Setting up:
+
+`npm init`
+
 Installation:
 
 `npm install express sequelize pg pg-hstore body-parser cors jsonwebtoken bcryptjs --save`
