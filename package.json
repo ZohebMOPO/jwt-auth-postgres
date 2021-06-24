@@ -1,14 +1,11 @@
 {
   "name": "bournvita",
   "version": "1.0.0",
-  "description": "Backend of MtoO",
+  "description": "JWT auth in postgres",
   "main": "index.js",
   "scripts": {
-    "create-dev-tables": "babel-node ./app/db/dev/dbConnection createTables",
-    "start": "nodemon --watch . --exec babel-node -- server",
-    "setup": "npm-run-all -p start create-dev-tables"
   },
-  "author": "",
+  "author": "Zoheb Khan",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
@@ -35,5 +32,10 @@
     "babel-register": "^6.26.0",
     "babel-watch": "^7.4.1",
     "react-dom": "^17.0.2"
-  }
+  },
+  "keywords": [
+    "nodejs",
+    "jwtauth",
+    "postgres"
+  ]
 }
