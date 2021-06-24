@@ -4,7 +4,7 @@ Source code for JSONWEBTOKEN(jwt) authentication in your web apps.
 
 ## Project Status
 
-I made this auth system NodeJS but looking forward to make one with Golang.
+I made this auth system NodeJS.
 
 ## Installation and Setup Instructions
 
